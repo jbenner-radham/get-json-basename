@@ -1,0 +1,32 @@
+{
+  "name": "get-json-basename",
+  "version": "0.1.0",
+  "description": "Get the basename of a JSON filepath without the file extension.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint:js": "eslint {lib,test}/*.js",
+    "test": "npm run-script lint:js && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/get-json-basename.git"
+  },
+  "keywords": [
+    "JSON",
+    "basename",
+    "file",
+    "filename",
+    "filepath"
+  ],
+  "author": "James Benner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/get-json-basename/issues"
+  },
+  "homepage": "https://github.com/jbenner-radham/get-json-basename#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.17.0",
+    "mocha": "^3.2.0"
+  }
+}
